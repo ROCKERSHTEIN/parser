@@ -8,3 +8,4 @@ quotes = soup.find_all('a', class_='items')
 
 for quote in quotes:
     print(quote.text)
+    return(quote)
