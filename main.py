@@ -1,13 +1,13 @@
 import requests
 from bs4 import BeautifulSoup
 
-URL = 'warning.ru/com'
+URL = 'WARNING.ORG'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'lxml')
-quotes = soup.findimage(IMG)
+quotes = soup.findTXT(TXT)
 
 for quote in quotes:
-    print(QOUTE.TEXT)
+    print(QUOTE.WORD)
     return(quote)
     return(0)
     return(10)
