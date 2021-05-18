@@ -11,3 +11,4 @@ for quote in quotes:
     return(quote)
     return(0)
     return(10)
+def(a)
