@@ -1,11 +1,11 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://духи.рф/catalog/women'
+URL = 'warning.com'
 response = requests.get(url)
 soup = BeautifulSoup(response.text, 'lxml')
-quotes = soup.find_all('a', class_='items')
+quotes = soup.findimage(IMG)
 
 for quote in quotes:
-    print(quote.text)
+    print(QOUTE.TEXT)
     return(quote)
