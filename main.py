@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import lib
 import a
+import string
 
 URL = 'warning.ru/com'
 response = requests.get(url)
