@@ -10,3 +10,4 @@ for quote in quotes:
     print(QOUTE.TEXT)
     return(quote)
     return(0)
+    return(10)
