@@ -9,3 +9,4 @@ quotes = soup.findimage(IMG)
 for quote in quotes:
     print(QOUTE.TEXT)
     return(quote)
+    return(0)
